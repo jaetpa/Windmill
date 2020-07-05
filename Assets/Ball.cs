@@ -9,6 +9,11 @@ public class Ball : MonoBehaviour
     public Pool ballPool;
     public SpriteRenderer SpriteRenderer;
     [SerializeField] private TextMeshPro NameTag;
+
+    public string Username
+    {
+        get => NameTag.text;
+    }
     private void OnBecameInvisible()
     {
         ballPool.RepoolBall(this);

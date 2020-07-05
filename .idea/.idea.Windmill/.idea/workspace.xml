@@ -1,19 +1,300 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41059d91-e793-4026-a426-17072bef0b2c" name="Default Changelist" comment="" />
+    <list default="true" id="41059d91-e793-4026-a426-17072bef0b2c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/DropText.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/DropText.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/TextSpawner.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Windmill/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Windmill/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Windmill/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Windmill/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Windmill/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Windmill/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Ball.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Ball.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_.kolipop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_.kolipop.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_.kolipop.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_.kolipop.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_13th storywriter.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_13th storywriter.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_466.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_466.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_466.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_466.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Aerthetical.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Aerthetical.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Alaker Brisinger.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Alaker Brisinger.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Alaker Brisinger.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Alaker Brisinger.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Allanbuzzy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Allanbuzzy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Allanbuzzy.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Allanbuzzy.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Angelic Demon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Angelic Demon.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Archie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Archie.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Arctic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Arctic.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_AshyAshley.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_AshyAshley.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Asia.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Asia.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Asia.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Asia.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Assassinsarms.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Assassinsarms.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Assassinsarms.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Assassinsarms.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ayush.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ayush.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ayush.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ayush.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_BAMitzEvil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_BAMitzEvil.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_BAMitzEvil.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_BAMitzEvil.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_BreathlessAbel.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_BreathlessAbel.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CJ.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CJ.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CJ.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CJ.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CharredSkies.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CharredSkies.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CharredSkies.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_CharredSkies.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Cobra.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Cobra.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Cobra.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Cobra.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DG.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DG.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DG.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DG.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DarthMeghaj.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DarthMeghaj.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DarthMeghaj.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DarthMeghaj.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Der Kommissar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Der Kommissar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Der Kommissar.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Der Kommissar.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Discordia 1408.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Discordia 1408.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Divinity Heart.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Divinity Heart.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Divinity Heart.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Divinity Heart.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DropOfDarkness.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DropOfDarkness.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DropOfDarkness.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_DropOfDarkness.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_EshRobertDPlaya.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_EshRobertDPlaya.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_EshRobertDPlaya.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_EshRobertDPlaya.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Fate.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Fate.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Fate.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Fate.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Firefox412.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Firefox412.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Firefox412.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Firefox412.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Foxy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Foxy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Foxy.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Foxy.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_General Kenobi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_General Kenobi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_General Kenobi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_General Kenobi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gengar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gengar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gengar.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gengar.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ginger.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ginger.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gone for a bit.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gone for a bit.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gone for a bit.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Gone for a bit.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Goon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Goon.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Grimhof.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Grimhof.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Grimhof.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Grimhof.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Hai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Hai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Hai.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Hai.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Holly_Snow_It's_Salsa!.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Holly_Snow_It's_Salsa!.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ikit Claw.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ikit Claw.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_It's Hailen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_It's Hailen.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ItsKolGang.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ItsKolGang.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ItsKolGang.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ItsKolGang.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_JACKFL1P.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_JACKFL1P.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_JACKFL1P.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_JACKFL1P.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Jam.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Jam.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Jam.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Jam.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Joshy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Joshy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Joshy.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Joshy.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keego.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keego.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keego.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keego.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keith.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keith.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keith.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Keith.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Larry.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Larry.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Larry.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Larry.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lasroth.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lasroth.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lasroth.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lasroth.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_LegoPanda.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_LegoPanda.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_LegoPanda.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_LegoPanda.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lukim.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lukim.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lukim.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Lukim.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Luxury Beverage.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Luxury Beverage.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mackan.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mackan.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mackan.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mackan.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Manger_Dodo_Velo.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Manger_Dodo_Velo.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Marsh.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Marsh.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Marsh.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Marsh.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mecha Marmot.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mecha Marmot.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mecha Marmot.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mecha Marmot.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mepresisial.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mepresisial.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mepresisial.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mepresisial.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Meta-Head.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Meta-Head.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Meta-Head.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Meta-Head.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_MinoTux_.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_MinoTux_.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_MinoTux_.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_MinoTux_.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Miss Kitty Charlie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Miss Kitty Charlie.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Moff.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Moff.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mr. Mee6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mr. Mee6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mr. Mee6.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mr. Mee6.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Murtle the Turtle.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Murtle the Turtle.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mydog.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mydog.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mydog.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Mydog.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Nath.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Nath.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Nath.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Nath.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_NotGaylien.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_NotGaylien.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_NotGaylien.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_NotGaylien.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Nova.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Nova.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Paigey.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Paigey.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Paigey.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Paigey.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Pusheen.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Pusheen.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_QuantumFix.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_QuantumFix.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_QuantumFix.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_QuantumFix.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_QueenAC.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_QueenAC.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Roxas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Roxas.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Roy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Roy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Roy.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Roy.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Salami.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Salami.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Salami.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Salami.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Scy.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Scy.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Semi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Semi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Semi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Semi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Shay...죽은 꽃.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Shay...죽은 꽃.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Silly Lullaby.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Silly Lullaby.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Sirmurrmurr.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Sirmurrmurr.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_SpaceMan-2982.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_SpaceMan-2982.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Spuffette.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Spuffette.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Spuffette.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Spuffette.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Stevo.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Stevo.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Stevo.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Stevo.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Syn.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Syn.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Syn.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Syn.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_TagmanBeesley.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_TagmanBeesley.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_TagmanBeesley.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_TagmanBeesley.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_The Eley Crew.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_The Eley Crew.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_The Eley Crew.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_The Eley Crew.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_This Guy.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_This Guy.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_This Guy.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_This Guy.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Umm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Umm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Umm.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Umm.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Valkyrie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Valkyrie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Valkyrie.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Valkyrie.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Velket.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Velket.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Velket.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Velket.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_VoidInVoid.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_VoidInVoid.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_VoidInVoid.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_VoidInVoid.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_WildMiddleChild.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_WildMiddleChild.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_WildMiddleChild.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_WildMiddleChild.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_WillOnTheInt.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_WillOnTheInt.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Wolfie.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Wolfie.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Wolfy~.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Wolfy~.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Wolfy~.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Wolfy~.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Yorkie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Yorkie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Yorkie.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Yorkie.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Zysheep.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Zysheep.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_cleanycloth.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_cleanycloth.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_cleanycloth.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_cleanycloth.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_cocobanana.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_cocobanana.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_conjurer.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_conjurer.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_conjurer.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_conjurer.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_dnc.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_dnc.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_dnc.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_dnc.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ducky.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ducky.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_gabi.newsies.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_gabi.newsies.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_gabi.newsies.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_gabi.newsies.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ian.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ian.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ian.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ian.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_imafox.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_imafox.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_imafox.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_imafox.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_jackgaming.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_jackgaming.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_jaetpa.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_jaetpa.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_jaetpa.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_jaetpa.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_janeisenbeton.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_janeisenbeton.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_kiwi.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_kiwi.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_kolwyntjie.exe.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_kolwyntjie.exe.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lance.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lance.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lance.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lance.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lime.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lime.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lime.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_lime.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_mathyou.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_mathyou.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_memeboi.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_memeboi.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_memeboi.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_memeboi.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_mr tumble.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_mr tumble.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_mr tumble.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_mr tumble.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ohmightyqueen.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ohmightyqueen.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ohmightyqueen.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ohmightyqueen.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_orangejoose.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_orangejoose.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_orangejoose.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_orangejoose.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_pistacchio pepperoni.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_pistacchio pepperoni.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_pistacchio pepperoni.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_pistacchio pepperoni.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_schweinhund.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_schweinhund.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_schweinhund.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_schweinhund.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_screem.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_screem.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_screem.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_screem.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_smol.child.7.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_smol.child.7.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_smol.child.7.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_smol.child.7.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_sneaky.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_sneaky.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_sneaky.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_sneaky.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_tacopill.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_tacopill.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_tacopill.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_tacopill.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_thog.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_thog.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_uqlysoftie.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_uqlysoftie.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_uqlysoftie.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_uqlysoftie.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_usagi-mono.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_usagi-mono.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_vollcan.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_vollcan.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_william.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_william.jpg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_xXPrincessofLifeXx.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_xXPrincessofLifeXx.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_xXPrincessofLifeXx.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_xXPrincessofLifeXx.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_yatty.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_yatty.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_yatty.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_yatty.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_zag.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_zag.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_zag.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_zag.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ˢᵒᶠᶦᵃ ✝.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ˢᵒᶠᶦᵃ ✝.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ˢᵒᶠᶦᵃ ✝.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_ˢᵒᶠᶦᵃ ✝.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ωmm.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ωmm.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ωmm.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Ωmm.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Snowystorm.jpg" beforePathEscaped="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_🌨Snowystorm🌩.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Snowystorm.jpg" afterPathEscaped="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_🌨Snowystorm🌩.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Snowystorm.jpg.meta" beforePathEscaped="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_🌨Snowystorm🌩.jpg.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_Snowystorm.jpg.meta" afterPathEscaped="$PROJECT_DIR$/Assets/Textures/Avatars/avatar_🌨Snowystorm🌩.jpg.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.probuilder/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.settings-manager/Settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Packages/com.unity.settings-manager/Settings.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TriggerBox.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Pool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Dropper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Clicker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/7559BF97-67E7-4FF5-906F-18401F66CD57/f4/7f25f315/SetupCoroutine.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Dropper.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Ball.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ScoreText.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DropText.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -22,6 +303,10 @@
         <option value="$PROJECT_DIR$/Assets/Dropper.cs" />
         <option value="$PROJECT_DIR$/Assets/Pool.cs" />
         <option value="$PROJECT_DIR$/Assets/Ball.cs" />
+        <option value="$PROJECT_DIR$/Assets/TextSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/DropText.cs" />
+        <option value="$PROJECT_DIR$/Assets/TriggerBox.cs" />
+        <option value="$PROJECT_DIR$/Assets/ScoreText.cs" />
       </list>
     </option>
   </component>
@@ -52,10 +337,10 @@
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="18536">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="5228">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="18536" />
+      <option name="pid" value="5228" />
       <option name="userSelectedPid" value="false" />
       <method v="2" />
     </configuration>
@@ -71,6 +356,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580156217767</updated>
       <workItem from="1580156221020" duration="7657000" />
+      <workItem from="1593911453934" duration="4585000" />
     </task>
     <servers />
   </component>
@@ -79,6 +365,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
   </component>
@@ -89,19 +386,6 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Clicker.cs</url>
-          <line>22</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Clicker.cs" initialLine="22">
-            <startOffsets>
-              <option value="585" />
-            </startOffsets>
-            <endOffsets>
-              <option value="615" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>

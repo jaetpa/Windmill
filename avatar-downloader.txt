@@ -1,0 +1,42 @@
+import discord
+import requests
+
+high_ranks = ["TALL", "SHORT"]
+class MyClient(discord.Client):
+    async def on_ready(self):
+        print('Logged on as {0}!'.format(self.user))
+        guild_95 = client.get_guild(202600401281744896)
+        high_rank_members = []
+        for rank in high_ranks:
+            members = filter(lambda m:rank in map(str.upper, map(str,m.roles)), guild_95.members)
+            high_rank_members += members
+        for mem in high_rank_members:
+            print(mem)
+            print(mem.avatar_url)
+            name = mem.name
+            if "AMSTERJAM" in name:
+                name = "Jam"
+            with open(f"avatar_{name}.png", "wb") as handle:
+                response = requests.get(mem.avatar_url, stream=True)
+                if not (response.ok):
+                    print(response)
+
+                for block in response.iter_content(1024):
+                    if not block:
+                        break
+                    handle.write(block)
+            
+
+
+
+
+
+
+    async def on_message(self, message):
+        #print('Message from {0.author}: {0.content}'.format(message))
+        pass
+
+client = MyClient()
+
+#actual live token, don't be silly
+client.run('Mjk3MzkxNDY0MDAwNzgyMzM3.C8AI2g.QutRCctJdV6n0Q0j9f6bp2zcSy8')
